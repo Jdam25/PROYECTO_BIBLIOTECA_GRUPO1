@@ -34,20 +34,20 @@ namespace Proyecto_Biblioteca
             this.ribbonControlAdv1 = new Syncfusion.Windows.Forms.Tools.RibbonControlAdv();
             this.Registrar = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx2 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem1 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
+            this.toolStripEx3 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem2 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx1 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.toolStripEx3 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControlAdv1)).BeginInit();
             this.ribbonControlAdv1.SuspendLayout();
             this.Registrar.Panel.SuspendLayout();
             this.toolStripEx2.SuspendLayout();
             this.toolStripTabItem1.Panel.SuspendLayout();
-            this.toolStripEx1.SuspendLayout();
             this.toolStripEx3.SuspendLayout();
+            this.toolStripEx1.SuspendLayout();
             this.SuspendLayout();
             // 
             // calculatorControl1
@@ -92,7 +92,7 @@ namespace Proyecto_Biblioteca
             this.ribbonControlAdv1.QuickPanelImageLayout = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ribbonControlAdv1.RibbonHeaderImage = Syncfusion.Windows.Forms.Tools.RibbonHeaderImage.None;
             this.ribbonControlAdv1.RibbonStyle = Syncfusion.Windows.Forms.Tools.RibbonStyle.Office2016;
-            this.ribbonControlAdv1.SelectedTab = this.Registrar;
+            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem1;
             this.ribbonControlAdv1.ShowRibbonDisplayOptionButton = true;
             this.ribbonControlAdv1.Size = new System.Drawing.Size(719, 191);
             this.ribbonControlAdv1.SystemText.QuickAccessDialogDropDownName = "Start menu";
@@ -117,7 +117,7 @@ namespace Proyecto_Biblioteca
             this.Registrar.Panel.TabIndex = 2;
             this.Registrar.Panel.Text = "Registrar Usuario";
             this.Registrar.Position = 0;
-            this.Registrar.Size = new System.Drawing.Size(120, 23);
+            this.Registrar.Size = new System.Drawing.Size(130, 30);
             this.Registrar.Tag = "1";
             this.Registrar.Text = "Registrar Usuario";
             this.Registrar.ToolTipText = "Registrar";
@@ -142,6 +142,16 @@ namespace Proyecto_Biblioteca
             this.toolStripEx2.TabIndex = 0;
             this.toolStripEx2.Text = "Registrar";
             // 
+            // toolStripButton2
+            // 
+            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton2.Image = global::Proyecto_Biblioteca.Properties.Resources.registros_medicos;
+            this.toolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.Size = new System.Drawing.Size(68, 108);
+            this.toolStripButton2.Text = "toolStripButton2";
+            // 
             // toolStripTabItem1
             // 
             this.toolStripTabItem1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -155,10 +165,39 @@ namespace Proyecto_Biblioteca
             this.toolStripTabItem1.Panel.TabIndex = 3;
             this.toolStripTabItem1.Panel.Text = "ESTADO";
             this.toolStripTabItem1.Position = 1;
-            this.toolStripTabItem1.Size = new System.Drawing.Size(54, 19);
+            this.toolStripTabItem1.Size = new System.Drawing.Size(64, 30);
             this.toolStripTabItem1.Tag = "1";
             this.toolStripTabItem1.Text = "ESTADO";
             this.toolStripTabItem1.Click += new System.EventHandler(this.toolStripTabItem1_Click);
+            // 
+            // toolStripEx3
+            // 
+            this.toolStripEx3.CaptionAlignment = Syncfusion.Windows.Forms.Tools.CaptionAlignment.Center;
+            this.toolStripEx3.Dock = System.Windows.Forms.DockStyle.None;
+            this.toolStripEx3.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.toolStripEx3.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.toolStripEx3.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.toolStripEx3.Image = null;
+            this.toolStripEx3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton3});
+            this.toolStripEx3.Location = new System.Drawing.Point(0, 1);
+            this.toolStripEx3.Name = "toolStripEx3";
+            this.toolStripEx3.Office12Mode = false;
+            this.toolStripEx3.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
+            this.toolStripEx3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.toolStripEx3.Size = new System.Drawing.Size(77, 125);
+            this.toolStripEx3.TabIndex = 1;
+            this.toolStripEx3.Text = "ESTADO";
+            // 
+            // toolStripButton3
+            // 
+            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton3.Image = global::Proyecto_Biblioteca.Properties.Resources.detalles;
+            this.toolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.Size = new System.Drawing.Size(68, 108);
+            this.toolStripButton3.Text = "toolStripButton2";
             // 
             // toolStripTabItem2
             // 
@@ -172,7 +211,7 @@ namespace Proyecto_Biblioteca
             this.toolStripTabItem2.Panel.TabIndex = 4;
             this.toolStripTabItem2.Panel.Text = "toolStripTabItem2";
             this.toolStripTabItem2.Position = 2;
-            this.toolStripTabItem2.Size = new System.Drawing.Size(104, 19);
+            this.toolStripTabItem2.Size = new System.Drawing.Size(114, 30);
             this.toolStripTabItem2.Tag = "2";
             this.toolStripTabItem2.Text = "toolStripTabItem2";
             // 
@@ -195,45 +234,6 @@ namespace Proyecto_Biblioteca
             this.toolStripEx1.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
             this.toolStripEx1.Size = new System.Drawing.Size(84, 125);
             this.toolStripEx1.TabIndex = 0;
-            // 
-            // toolStripEx3
-            // 
-            this.toolStripEx3.CaptionAlignment = Syncfusion.Windows.Forms.Tools.CaptionAlignment.Center;
-            this.toolStripEx3.Dock = System.Windows.Forms.DockStyle.None;
-            this.toolStripEx3.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.toolStripEx3.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.toolStripEx3.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
-            this.toolStripEx3.Image = null;
-            this.toolStripEx3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton3});
-            this.toolStripEx3.Location = new System.Drawing.Point(0, 1);
-            this.toolStripEx3.Name = "toolStripEx3";
-            this.toolStripEx3.Office12Mode = false;
-            this.toolStripEx3.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
-            this.toolStripEx3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.toolStripEx3.Size = new System.Drawing.Size(77, 125);
-            this.toolStripEx3.TabIndex = 1;
-            this.toolStripEx3.Text = "ESTADO";
-            // 
-            // toolStripButton2
-            // 
-            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton2.Image = global::Proyecto_Biblioteca.Properties.Resources.registros_medicos;
-            this.toolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(68, 108);
-            this.toolStripButton2.Text = "toolStripButton2";
-            // 
-            // toolStripButton3
-            // 
-            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton3.Image = global::Proyecto_Biblioteca.Properties.Resources.detalles;
-            this.toolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(68, 108);
-            this.toolStripButton3.Text = "toolStripButton2";
             // 
             // toolStripButton1
             // 
@@ -262,10 +262,10 @@ namespace Proyecto_Biblioteca
             this.toolStripEx2.PerformLayout();
             this.toolStripTabItem1.Panel.ResumeLayout(false);
             this.toolStripTabItem1.Panel.PerformLayout();
-            this.toolStripEx1.ResumeLayout(false);
-            this.toolStripEx1.PerformLayout();
             this.toolStripEx3.ResumeLayout(false);
             this.toolStripEx3.PerformLayout();
+            this.toolStripEx1.ResumeLayout(false);
+            this.toolStripEx1.PerformLayout();
             this.ResumeLayout(false);
 
         }

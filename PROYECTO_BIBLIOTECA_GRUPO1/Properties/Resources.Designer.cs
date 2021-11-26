@@ -109,5 +109,15 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2021_11_26_at_12_16_00_AM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2021-11-26 at 12.16.00 AM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
