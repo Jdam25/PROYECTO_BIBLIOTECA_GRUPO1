@@ -32,15 +32,15 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.ribbonControlAdv1 = new Syncfusion.Windows.Forms.Tools.RibbonControlAdv();
             this.toolStripTabItem1 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx1 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem2 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx2 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem3 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx3 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem4 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx4 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControlAdv1)).BeginInit();
             this.ribbonControlAdv1.SuspendLayout();
@@ -81,7 +81,7 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.ribbonControlAdv1.QuickPanelImageLayout = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ribbonControlAdv1.RibbonHeaderImage = Syncfusion.Windows.Forms.Tools.RibbonHeaderImage.None;
             this.ribbonControlAdv1.RibbonStyle = Syncfusion.Windows.Forms.Tools.RibbonStyle.Office2016;
-            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem2;
+            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem1;
             this.ribbonControlAdv1.ShowRibbonDisplayOptionButton = true;
             this.ribbonControlAdv1.Size = new System.Drawing.Size(629, 163);
             this.ribbonControlAdv1.SystemText.QuickAccessDialogDropDownName = "Start menu";
@@ -106,7 +106,7 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.toolStripTabItem1.Panel.TabIndex = 2;
             this.toolStripTabItem1.Panel.Text = "Registrar Usuario";
             this.toolStripTabItem1.Position = 0;
-            this.toolStripTabItem1.Size = new System.Drawing.Size(102, 19);
+            this.toolStripTabItem1.Size = new System.Drawing.Size(112, 30);
             this.toolStripTabItem1.Tag = "1";
             this.toolStripTabItem1.Text = "Registrar Usuario";
             // 
@@ -128,6 +128,17 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.toolStripEx1.Size = new System.Drawing.Size(258, 97);
             this.toolStripEx1.TabIndex = 0;
             // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.AutoSize = false;
+            this.toolStripButton1.Image = global::PROYECTO_BIBLIOTECA_GRUPO1.Properties.Resources.WhatsApp_Image_2021_11_24_at_11_10_44_PM;
+            this.toolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(229, 72);
+            this.toolStripButton1.Text = "REGISTRAR";
+            this.toolStripButton1.ToolTipText = "REGISTRAR\r\n\r\n";
+            // 
             // toolStripTabItem2
             // 
             this.toolStripTabItem2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -141,7 +152,7 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.toolStripTabItem2.Panel.TabIndex = 3;
             this.toolStripTabItem2.Panel.Text = "Estado Del Libro";
             this.toolStripTabItem2.Position = 1;
-            this.toolStripTabItem2.Size = new System.Drawing.Size(97, 19);
+            this.toolStripTabItem2.Size = new System.Drawing.Size(107, 30);
             this.toolStripTabItem2.Tag = "2";
             this.toolStripTabItem2.Text = "Estado Del Libro";
             // 
@@ -163,6 +174,17 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.toolStripEx2.Size = new System.Drawing.Size(257, 97);
             this.toolStripEx2.TabIndex = 1;
             // 
+            // toolStripButton2
+            // 
+            this.toolStripButton2.AutoSize = false;
+            this.toolStripButton2.Image = global::PROYECTO_BIBLIOTECA_GRUPO1.Properties.Resources.WhatsApp_Image_2021_11_24_at_11_47_36_PM;
+            this.toolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.Size = new System.Drawing.Size(229, 72);
+            this.toolStripButton2.Text = "ESTADO";
+            this.toolStripButton2.ToolTipText = "REGISTRAR\r\n\r\n";
+            // 
             // toolStripTabItem3
             // 
             this.toolStripTabItem3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -176,7 +198,7 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.toolStripTabItem3.Panel.TabIndex = 4;
             this.toolStripTabItem3.Panel.Text = "toolStripTabItem3";
             this.toolStripTabItem3.Position = 2;
-            this.toolStripTabItem3.Size = new System.Drawing.Size(104, 19);
+            this.toolStripTabItem3.Size = new System.Drawing.Size(114, 30);
             this.toolStripTabItem3.Tag = "3";
             this.toolStripTabItem3.Text = "toolStripTabItem3";
             // 
@@ -198,6 +220,17 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.toolStripEx3.Size = new System.Drawing.Size(258, 97);
             this.toolStripEx3.TabIndex = 1;
             // 
+            // toolStripButton3
+            // 
+            this.toolStripButton3.AutoSize = false;
+            this.toolStripButton3.Image = global::PROYECTO_BIBLIOTECA_GRUPO1.Properties.Resources.WhatsApp_Image_2021_11_24_at_11_10_44_PM;
+            this.toolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.Size = new System.Drawing.Size(229, 72);
+            this.toolStripButton3.Text = "REGISTRAR";
+            this.toolStripButton3.ToolTipText = "REGISTRAR\r\n\r\n";
+            // 
             // toolStripTabItem4
             // 
             this.toolStripTabItem4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -211,7 +244,7 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.toolStripTabItem4.Panel.TabIndex = 5;
             this.toolStripTabItem4.Panel.Text = "toolStripTabItem4";
             this.toolStripTabItem4.Position = 3;
-            this.toolStripTabItem4.Size = new System.Drawing.Size(104, 19);
+            this.toolStripTabItem4.Size = new System.Drawing.Size(114, 30);
             this.toolStripTabItem4.Tag = "4";
             this.toolStripTabItem4.Text = "toolStripTabItem4";
             // 
@@ -232,39 +265,6 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.toolStripEx4.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.toolStripEx4.Size = new System.Drawing.Size(258, 97);
             this.toolStripEx4.TabIndex = 1;
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.AutoSize = false;
-            this.toolStripButton1.Image = global::PROYECTO_BIBLIOTECA_GRUPO1.Properties.Resources.WhatsApp_Image_2021_11_24_at_11_10_44_PM;
-            this.toolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(229, 72);
-            this.toolStripButton1.Text = "REGISTRAR";
-            this.toolStripButton1.ToolTipText = "REGISTRAR\r\n\r\n";
-            // 
-            // toolStripButton2
-            // 
-            this.toolStripButton2.AutoSize = false;
-            this.toolStripButton2.Image = global::PROYECTO_BIBLIOTECA_GRUPO1.Properties.Resources.WhatsApp_Image_2021_11_24_at_11_47_36_PM;
-            this.toolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(229, 72);
-            this.toolStripButton2.Text = "ESTADO";
-            this.toolStripButton2.ToolTipText = "REGISTRAR\r\n\r\n";
-            // 
-            // toolStripButton3
-            // 
-            this.toolStripButton3.AutoSize = false;
-            this.toolStripButton3.Image = global::PROYECTO_BIBLIOTECA_GRUPO1.Properties.Resources.WhatsApp_Image_2021_11_24_at_11_10_44_PM;
-            this.toolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(229, 72);
-            this.toolStripButton3.Text = "REGISTRAR";
-            this.toolStripButton3.ToolTipText = "REGISTRAR\r\n\r\n";
             // 
             // toolStripButton4
             // 
