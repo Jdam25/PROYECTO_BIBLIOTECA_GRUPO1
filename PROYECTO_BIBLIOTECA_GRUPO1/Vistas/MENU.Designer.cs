@@ -81,7 +81,7 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.ribbonControlAdv1.QuickPanelImageLayout = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ribbonControlAdv1.RibbonHeaderImage = Syncfusion.Windows.Forms.Tools.RibbonHeaderImage.None;
             this.ribbonControlAdv1.RibbonStyle = Syncfusion.Windows.Forms.Tools.RibbonStyle.Office2016;
-            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem1;
+            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem4;
             this.ribbonControlAdv1.ShowRibbonDisplayOptionButton = true;
             this.ribbonControlAdv1.Size = new System.Drawing.Size(629, 163);
             this.ribbonControlAdv1.SystemText.QuickAccessDialogDropDownName = "Start menu";
@@ -196,11 +196,11 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.toolStripTabItem3.Panel.Name = "ribbonPanel3";
             this.toolStripTabItem3.Panel.ScrollPosition = 0;
             this.toolStripTabItem3.Panel.TabIndex = 4;
-            this.toolStripTabItem3.Panel.Text = "toolStripTabItem3";
+            this.toolStripTabItem3.Panel.Text = "Detalle";
             this.toolStripTabItem3.Position = 2;
-            this.toolStripTabItem3.Size = new System.Drawing.Size(114, 30);
+            this.toolStripTabItem3.Size = new System.Drawing.Size(59, 30);
             this.toolStripTabItem3.Tag = "3";
-            this.toolStripTabItem3.Text = "toolStripTabItem3";
+            this.toolStripTabItem3.Text = "Detalle";
             // 
             // toolStripEx3
             // 
