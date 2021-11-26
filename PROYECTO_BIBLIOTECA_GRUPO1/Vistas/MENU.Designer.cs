@@ -81,7 +81,7 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.ribbonControlAdv1.QuickPanelImageLayout = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ribbonControlAdv1.RibbonHeaderImage = Syncfusion.Windows.Forms.Tools.RibbonHeaderImage.None;
             this.ribbonControlAdv1.RibbonStyle = Syncfusion.Windows.Forms.Tools.RibbonStyle.Office2016;
-            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem4;
+            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem1;
             this.ribbonControlAdv1.ShowRibbonDisplayOptionButton = true;
             this.ribbonControlAdv1.Size = new System.Drawing.Size(629, 163);
             this.ribbonControlAdv1.SystemText.QuickAccessDialogDropDownName = "Start menu";
@@ -150,11 +150,11 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.toolStripTabItem2.Panel.Name = "ribbonPanel2";
             this.toolStripTabItem2.Panel.ScrollPosition = 0;
             this.toolStripTabItem2.Panel.TabIndex = 3;
-            this.toolStripTabItem2.Panel.Text = "Estado Del Libro";
+            this.toolStripTabItem2.Panel.Text = "Estado del Libro";
             this.toolStripTabItem2.Position = 1;
-            this.toolStripTabItem2.Size = new System.Drawing.Size(107, 30);
+            this.toolStripTabItem2.Size = new System.Drawing.Size(106, 30);
             this.toolStripTabItem2.Tag = "2";
-            this.toolStripTabItem2.Text = "Estado Del Libro";
+            this.toolStripTabItem2.Text = "Estado del Libro";
             // 
             // toolStripEx2
             // 
@@ -223,12 +223,11 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             // toolStripButton3
             // 
             this.toolStripButton3.AutoSize = false;
-            this.toolStripButton3.Image = global::PROYECTO_BIBLIOTECA_GRUPO1.Properties.Resources.WhatsApp_Image_2021_11_24_at_11_10_44_PM;
             this.toolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton3.Name = "toolStripButton3";
             this.toolStripButton3.Size = new System.Drawing.Size(229, 72);
-            this.toolStripButton3.Text = "REGISTRAR";
+            this.toolStripButton3.Text = "DETALLE";
             this.toolStripButton3.ToolTipText = "REGISTRAR\r\n\r\n";
             // 
             // toolStripTabItem4
@@ -242,11 +241,11 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.toolStripTabItem4.Panel.Name = "ribbonPanel4";
             this.toolStripTabItem4.Panel.ScrollPosition = 0;
             this.toolStripTabItem4.Panel.TabIndex = 5;
-            this.toolStripTabItem4.Panel.Text = "toolStripTabItem4";
+            this.toolStripTabItem4.Panel.Text = "Factura";
             this.toolStripTabItem4.Position = 3;
-            this.toolStripTabItem4.Size = new System.Drawing.Size(114, 30);
+            this.toolStripTabItem4.Size = new System.Drawing.Size(61, 30);
             this.toolStripTabItem4.Tag = "4";
-            this.toolStripTabItem4.Text = "toolStripTabItem4";
+            this.toolStripTabItem4.Text = "Factura";
             // 
             // toolStripEx4
             // 
@@ -269,12 +268,11 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             // toolStripButton4
             // 
             this.toolStripButton4.AutoSize = false;
-            this.toolStripButton4.Image = global::PROYECTO_BIBLIOTECA_GRUPO1.Properties.Resources.WhatsApp_Image_2021_11_24_at_11_10_44_PM;
             this.toolStripButton4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton4.Name = "toolStripButton4";
             this.toolStripButton4.Size = new System.Drawing.Size(229, 72);
-            this.toolStripButton4.Text = "REGISTRAR";
+            this.toolStripButton4.Text = "FACTURA";
             this.toolStripButton4.ToolTipText = "REGISTRAR\r\n\r\n";
             // 
             // MENU

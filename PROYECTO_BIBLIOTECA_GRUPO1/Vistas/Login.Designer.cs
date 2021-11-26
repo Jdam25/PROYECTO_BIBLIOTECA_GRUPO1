@@ -45,9 +45,9 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(155, 293);
+            this.button1.Location = new System.Drawing.Point(155, 289);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(106, 30);
+            this.button1.Size = new System.Drawing.Size(106, 24);
             this.button1.TabIndex = 0;
             this.button1.Text = "LOGIN";
             this.button1.UseVisualStyleBackColor = false;
@@ -60,9 +60,9 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Location = new System.Drawing.Point(34, 266);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 13);
+            this.label1.Size = new System.Drawing.Size(95, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "CONTRASEÑA";
+            this.label1.Text = "CONTRASEÑA:";
             // 
             // label2
             // 
@@ -72,9 +72,9 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label2.Location = new System.Drawing.Point(62, 220);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 13);
+            this.label2.Size = new System.Drawing.Size(67, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "USUARIO";
+            this.label2.Text = "USUARIO:";
             // 
             // textBox1
             // 
@@ -121,7 +121,7 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.AutoSize = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(424, 388);
+            this.ClientSize = new System.Drawing.Size(368, 372);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox2);
