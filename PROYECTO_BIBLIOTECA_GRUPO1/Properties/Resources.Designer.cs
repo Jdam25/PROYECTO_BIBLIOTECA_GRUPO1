@@ -63,6 +63,16 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap biblioteca_digital {
+            get {
+                object obj = ResourceManager.GetObject("biblioteca-digital", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap descarga {
             get {
                 object obj = ResourceManager.GetObject("descarga", resourceCulture);
@@ -76,6 +86,16 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Properties {
         internal static System.Drawing.Bitmap images {
             get {
                 object obj = ResourceManager.GetObject("images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap leyendo {
+            get {
+                object obj = ResourceManager.GetObject("leyendo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

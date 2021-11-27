@@ -62,9 +62,8 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.ribbonControlAdv1.CollapseBehavior = Syncfusion.Windows.Forms.Tools.CollapseBehavior.Office2010;
             this.ribbonControlAdv1.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.ribbonControlAdv1.Header.AddMainItem(toolStripTabItem1);
-            this.ribbonControlAdv1.Header.AddMainItem(toolStripTabItem2);
-            this.ribbonControlAdv1.Header.AddMainItem(toolStripTabItem3);
             this.ribbonControlAdv1.Header.AddMainItem(toolStripTabItem4);
+            this.ribbonControlAdv1.Header.AddMainItem(toolStripTabItem2);
             this.ribbonControlAdv1.Location = new System.Drawing.Point(-1, 2);
             this.ribbonControlAdv1.MenuButtonFont = new System.Drawing.Font("Segoe UI", 8.25F);
             this.ribbonControlAdv1.MenuButtonText = "";
@@ -81,9 +80,9 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.ribbonControlAdv1.QuickPanelImageLayout = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ribbonControlAdv1.RibbonHeaderImage = Syncfusion.Windows.Forms.Tools.RibbonHeaderImage.None;
             this.ribbonControlAdv1.RibbonStyle = Syncfusion.Windows.Forms.Tools.RibbonStyle.Office2016;
-            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem1;
+            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem2;
             this.ribbonControlAdv1.ShowRibbonDisplayOptionButton = true;
-            this.ribbonControlAdv1.Size = new System.Drawing.Size(629, 163);
+            this.ribbonControlAdv1.Size = new System.Drawing.Size(624, 163);
             this.ribbonControlAdv1.SystemText.QuickAccessDialogDropDownName = "Start menu";
             this.ribbonControlAdv1.SystemText.RenameDisplayLabelText = "&Display Name:";
             this.ribbonControlAdv1.TabIndex = 0;
@@ -151,7 +150,7 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.toolStripTabItem2.Panel.ScrollPosition = 0;
             this.toolStripTabItem2.Panel.TabIndex = 3;
             this.toolStripTabItem2.Panel.Text = "Estado del Libro";
-            this.toolStripTabItem2.Position = 1;
+            this.toolStripTabItem2.Position = 2;
             this.toolStripTabItem2.Size = new System.Drawing.Size(106, 30);
             this.toolStripTabItem2.Tag = "2";
             this.toolStripTabItem2.Text = "Estado del Libro";
@@ -177,7 +176,7 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             // toolStripButton2
             // 
             this.toolStripButton2.AutoSize = false;
-            this.toolStripButton2.Image = global::PROYECTO_BIBLIOTECA_GRUPO1.Properties.Resources.WhatsApp_Image_2021_11_24_at_11_47_36_PM;
+            this.toolStripButton2.Image = global::PROYECTO_BIBLIOTECA_GRUPO1.Properties.Resources.leyendo;
             this.toolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
@@ -190,14 +189,14 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.toolStripTabItem3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripTabItem3.Name = "toolStripTabItem3";
             // 
-            // ribbonControlAdv1.ribbonPanel3
+            // 
             // 
             this.toolStripTabItem3.Panel.Controls.Add(this.toolStripEx3);
             this.toolStripTabItem3.Panel.Name = "ribbonPanel3";
             this.toolStripTabItem3.Panel.ScrollPosition = 0;
             this.toolStripTabItem3.Panel.TabIndex = 4;
             this.toolStripTabItem3.Panel.Text = "Detalle";
-            this.toolStripTabItem3.Position = 2;
+            this.toolStripTabItem3.Position = -1;
             this.toolStripTabItem3.Size = new System.Drawing.Size(59, 30);
             this.toolStripTabItem3.Tag = "3";
             this.toolStripTabItem3.Text = "Detalle";
@@ -235,14 +234,14 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.toolStripTabItem4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripTabItem4.Name = "toolStripTabItem4";
             // 
-            // ribbonControlAdv1.ribbonPanel4
+            // ribbonControlAdv1.ribbonPanel3
             // 
             this.toolStripTabItem4.Panel.Controls.Add(this.toolStripEx4);
-            this.toolStripTabItem4.Panel.Name = "ribbonPanel4";
+            this.toolStripTabItem4.Panel.Name = "ribbonPanel3";
             this.toolStripTabItem4.Panel.ScrollPosition = 0;
             this.toolStripTabItem4.Panel.TabIndex = 5;
             this.toolStripTabItem4.Panel.Text = "Factura";
-            this.toolStripTabItem4.Position = 3;
+            this.toolStripTabItem4.Position = 1;
             this.toolStripTabItem4.Size = new System.Drawing.Size(61, 30);
             this.toolStripTabItem4.Tag = "4";
             this.toolStripTabItem4.Text = "Factura";
@@ -262,12 +261,13 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.toolStripEx4.Office12Mode = false;
             this.toolStripEx4.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
             this.toolStripEx4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.toolStripEx4.Size = new System.Drawing.Size(258, 97);
+            this.toolStripEx4.Size = new System.Drawing.Size(238, 97);
             this.toolStripEx4.TabIndex = 1;
             // 
             // toolStripButton4
             // 
             this.toolStripButton4.AutoSize = false;
+            this.toolStripButton4.Image = global::PROYECTO_BIBLIOTECA_GRUPO1.Properties.Resources.biblioteca_digital;
             this.toolStripButton4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton4.Name = "toolStripButton4";
@@ -280,7 +280,7 @@ namespace PROYECTO_BIBLIOTECA_GRUPO1.Vistas
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(640, 404);
+            this.ClientSize = new System.Drawing.Size(635, 404);
             this.Controls.Add(this.ribbonControlAdv1);
             this.Name = "MENU";
             this.Text = "MENU";
